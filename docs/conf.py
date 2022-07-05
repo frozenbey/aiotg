@@ -48,8 +48,8 @@ master_doc = "index"
 
 # General information about the project.
 project = "aiotg"
-copyright = "2016, Stepan Zastupov"
-author = "Stepan Zastupov"
+copyright = "2022, Frozen Bey"
+author = "Frozen Bey"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -118,7 +118,7 @@ html_theme = "alabaster"
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "github_user": "szastupov",
+    "github_user": "frozenbey",
     "github_repo": "aiotg",
     "github_banner": True,
     "github_type": "star",
@@ -236,7 +236,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "aiotg.tex", "aiotg Documentation", "Stepan Zastupov", "manual")
+    (master_doc, "aiotg.tex", "aiotg Documentation", "FrozenBey", "manual")
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
