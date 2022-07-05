@@ -1,9 +1,9 @@
 .. include:: ../README.rst
 
-Reference
+Referans
 ----------------
 
-Bot Interface
+Bot Arayüzü
 ~~~~~~~~~~~~~~~~
 
 .. automodule:: aiotg.bot
@@ -11,7 +11,7 @@ Bot Interface
     :undoc-members:
     :show-inheritance:
 
-Chat Interface
+Sohbet Arayüzü
 ~~~~~~~~~~~~~~~~~
 
 .. automodule:: aiotg.chat
