@@ -5,7 +5,7 @@ from aiohttp import web
 from aiotg.mock import MockBot
 from threading import Thread, Event
 
-# ⚠️  beware, this test is a total hack ⚠️
+
 
 webhook_url = "http://localhost:6666/webhook"
 server_started = Event()
