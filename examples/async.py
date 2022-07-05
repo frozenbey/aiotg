@@ -3,7 +3,7 @@ from aiotg import Bot, Chat
 
 bot = Bot(api_token="API_TOKEN")
 
-
+#
 @bot.command(r"bitcoin")
 async def bitcoin(chat: Chat, match):
     url = "https://api.bitcoinaverage.com/ticker/global/USD/"
