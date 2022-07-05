@@ -1,4 +1,4 @@
-aiotelegram
+aiotg
 =====
 
 Telegram botları oluşturmak için asenkron Python API'si şunları içerir:
