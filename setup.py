@@ -6,13 +6,13 @@ version = version_file.read().strip()
 version_file.close()
 
 setup(
-    name='aiotg',
+    name='aiotelegram',
     version=version,
     description='Asynchronous Python API for building Telegram bots',
-    url='http://szastupov.github.io/aiotg',
+    url='http://szastupov.github.io/aio',
 
-    author='Stepan Zastupov',
-    author_email='stepan.zastupov@gmail.com',
+    author='Frozen Bey',
+    author_email='lucifermarka660@gmail.com',
 
     license='MIT',
 
