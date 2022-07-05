@@ -14,7 +14,7 @@ pip ile kurun:
 
     pip install aiotg
 
-Then you can create a new bot in few lines:
+Ardından birkaç satırda yeni bir bot oluşturabilirsiniz.:
 
 .. code:: python
 
@@ -28,12 +28,13 @@ Then you can create a new bot in few lines:
 
     bot.run()
 
-Now run it with a proper API\_TOKEN and it should reply to /echo commands.
+
+Şimdi uygun bir API\_TOKEN ile çalıştırın ve /echo komutlarına yanıt vermelidir.
 
 .. note:: Type annotations are not required but will help your editor/IDE to provide code completion.
 
-The example above looks like a normal synchronous code but it actually returns a coroutine.
-If you want to make an external request (and that's what bots usually do) just use aiohttp and async/await syntax:
+Yukarıdaki örnek normal bir senkron koda benziyor ama aslında bir eşyordam döndürüyor.
+Harici bir istekte bulunmak istiyorsanız (ve botların genellikle yaptığı şey budur) sadece aiohttp ve async/await s kullanın.
 
 .. code:: python
 
@@ -53,8 +54,8 @@ If you want to make an external request (and that's what bots usually do) just u
     bot.run()
 
 
-But what if you just want to write a quick integration and don't need to provide a conversational interface? We've got you covered!
-You can send messages (or any other media) by constructing a Chat object with user_id or channel name. We even saved you some extra keystrokes by providing handy Channel constructors:
+Peki ya sadece hızlı bir entegrasyon yazmak istiyorsanız ve bir konuşma arayüzü sağlamanız gerekmiyorsa? Seni koruduk!
+Bir Chat ob oluşturarak mesajlar (veya başka herhangi bir medya) gönderebilirsiniz.
 
 .. code:: python
 
@@ -68,16 +69,15 @@ You can send messages (or any other media) by constructing a Chat object with us
     ...
 
 
-Examples
+Örnekler
 ---------------
 
-- `Async IO <https://github.com/szastupov/aiotg/blob/master/examples/async.py>`__
-- `Send image <https://github.com/szastupov/aiotg/blob/master/examples/getimage.py>`__
-- `Post to channel <https://github.com/szastupov/aiotg/blob/master/examples/post_to_channel.py>`__
-- `Webhooks mode <https://github.com/szastupov/aiotg/blob/master/examples/webhook.py>`__
-- `Sender id <https://github.com/szastupov/aiotg/blob/master/examples/whoami.py>`__
+- `Async IO <https://github.com/frozenbey/aiotg/blob/master/examples/async.py>`__
+- `Send image <https://github.com/frozenbey/aiotg/blob/master/examples/getimage.py>`__
+- `Post to channel <https://github.com/frozenbey/aiotg/blob/master/examples/post_to_channel.py>`__
+- `Webhooks mode <https://github.com/frozenbey/aiotg/blob/master/examples/webhook.py>`__
+- `Sender id <https://github.com/frozenbey/aiotg/blob/master/examples/whoami.py>`__
+- `WhatisBot <https://github.com/frozenbey/whatisbot/blob/master/main.py>`__ or `Music Catalog Bot <https://github.com/szastupov/musicbot>`__.
 
-For a real world example, take a look at
-`WhatisBot <https://github.com/szastupov/whatisbot/blob/master/main.py>`__ or `Music Catalog Bot <https://github.com/szastupov/musicbot>`__.
+Projenin nasıl kullanılacağı hakkında daha fazla bilgi için projenin `belgelerine <http://szastupov.github.io/aiotg/index.html>`__ bakın.
 
-For more information on how to use the project, see the project's `documentation <http://szastupov.github.io/aiotg/index.html>`__.
