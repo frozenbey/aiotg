@@ -1,1 +1,1 @@
-from aiotg.bot import *  # noqa
+from aiotg.bot import *  # picu
