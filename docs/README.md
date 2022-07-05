@@ -1,8 +1,8 @@
-Hosted
+Sunucu
 ------
 http://szastupov.github.io/aiotg/
 
-Build
+Düzelt
 -----
 
 ```sh
