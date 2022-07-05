@@ -9,7 +9,7 @@ from testfixtures import LogCapture
 API_TOKEN = "test_token"
 bot = Bot(API_TOKEN)
 
-
+#ğ
 def custom_msg(msg):
     template = {
         "message_id": 0,
