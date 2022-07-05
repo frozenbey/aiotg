@@ -17,5 +17,5 @@ deploy:
   on:
     tags: true
     distributions: sdist bdist_wheel
-    repo: frozenbey/aiotelegram
+    repo: frozenbey/aiotg
     python: "3.6"
