@@ -1,7 +1,7 @@
 import logging
 
 logger = logging.getLogger("aiotg")
-
+#sj
 
 class Chat:
     """
