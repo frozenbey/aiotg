@@ -1,17 +1,14 @@
-aiotg
+aiotelegram
 =====
 
-.. image:: https://travis-ci.org/szastupov/aiotg.svg?branch=master
-    :target: https://travis-ci.org/szastupov/aiotg
+Telegram botları oluşturmak için asenkron Python API'si şunları içerir:
 
-Asynchronous Python API for building Telegram bots, featuring:
+- Kolay ve bildirimsel API
+- Sorunsuz kurulum - SSL sertifikalarına veya statik IP'ye gerek yok
+- Chatbase.com üzerinden analitik için yerleşik destek
+- Telegram API daraltma veya zaman aşımlarının otomatik olarak işlenmesi
 
-- Easy and declarative API
-- Hassle-free setup - no need for SSL certificates or static IP
-- Built-in support for analytics via chatbase.com
-- Automatic handling of Telegram API throttling or timeouts
-
-Install it with pip:
+pip ile kurun:
 
 .. code:: sh
 
